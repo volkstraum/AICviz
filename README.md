@@ -12,7 +12,7 @@ rawDataProcessor.py = a data processing script. The original data came with indi
 
 artworkTypeToCategories.py = another data processing script. This script combines several "artwork types" into a larger "artwork category" column. This was done for the pie chart for a more comprehensive visualization and to minimize many artwork types that had very little counts, like "protoype", "icon", and "materials" with only 1 of each ever categorized.
 
-artworks.zip = raw dataset from the Art Institute of Chicago. If you would like to run any of the data processing scripts for yourself, unzip this file into an "artworks" folder in the main AICViz directory.
+[datasource](https://github.com/art-institute-of-chicago/api-data) = datasource for the entire project. If you would like to run any of the data processing scripts for yourself, download their full dataset in their README.md and extract that into an "artworks" folder in the main directory.
 
 ## Installation Steps:
 in your environment, type 

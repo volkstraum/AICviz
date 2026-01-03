@@ -21,11 +21,11 @@ This repository contains both the Streamlit-based visualization app and the data
 The goal of this project is not only exploratory analysis, but also to prototype a public-facing interface that makes institutional collections legible through interactive visual means.
 
 ## Project Files:
-AICdashboard.py = the main file. Contains a dashboard of interactive visualizations on the Art Institute of Chicago Collection, along with annotations on the visualizations, limitations, and future directions.
+**AICdashboard.py** = the main file. Contains a dashboard of interactive visualizations on the Art Institute of Chicago Collection, along with annotations on the visualizations, limitations, and future directions.
 
-rawDataProcessor.py = a data processing script. The original data came with individual .json files representing artworks and their respective metadata. This script combines all the artworks into one .csv file for easier file manipulation. Furthermore, many of the original columns, such as "boost rank", "fiscal year", and "copyright notice", in the metadata was removed to save space and processing power.
+**rawDataProcessor.py** = a data processing script. The original data came with individual .json files representing artworks and their respective metadata. This script combines all the artworks into one .csv file for easier file manipulation. Furthermore, many of the original columns, such as "boost rank", "fiscal year", and "copyright notice", in the metadata was removed to save space and processing power.
 
-artworkTypeToCategories.py = another data processing script. This script combines several "artwork types" into a larger "artwork category" column. This was done for the pie chart for a more comprehensive visualization and to minimize many artwork types that had very little counts, like "protoype", "icon", and "materials" with only 1 of each ever categorized.
+**artworkTypeToCategories.py** = another data processing script. This script combines several "artwork types" into a larger "artwork category" column. This was done for the pie chart for a more comprehensive visualization and to minimize many artwork types that had very little counts, like "protoype", "icon", and "materials" with only 1 of each ever categorized.
 
 [datasource](https://github.com/art-institute-of-chicago/api-data) = datasource for the entire project. If you would like to run any of the data processing scripts for yourself, download their full dataset in their README.md and extract that into an "artworks" folder in the main directory.
 
